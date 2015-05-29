@@ -3,7 +3,7 @@ package princetonPlainsboro;
 class Test {
 
     public static void main(String[] args) {
-        //Lis le doc XML et en extrait le dm associé
+        //Lis le doc XML et en extrait le dm associï¿½
         LectureXML test = new LectureXML("dossiers.xml");
         DossierMedical dm = test.getDossier();
         dm.afficher();
@@ -20,7 +20,7 @@ class Test {
 
         System.out.println("\n********\n");
 
-        Medecin m1 = new Medecin("Deblouze", "Agathe", Specialite.Cardiologie, "0612545632", "mdp");
+        Medecin m1 = new Medecin("Deblouze", "Agathe", Specialite.Cardiologie, "0612545632");
         dm.afficherListePatients(m1);
 
         System.out.println("\n********\n");

@@ -1,20 +1,17 @@
 package princetonPlainsboro;
 
-class Medecin {
+class Medecin{
 
     private String nom;
     private String prenom;
     private Specialite specialite;
     private String telephone;
-    private String motDePasse;
 
-    public Medecin(String nom, String prenom, Specialite specialite, String telephone, String motDePasse) {
-
+    public Medecin(String nom, String prenom, Specialite specialite, String telephone) {
         this.nom = nom;
         this.prenom = prenom;
         this.specialite = specialite;
         this.telephone = telephone;
-        this.motDePasse = motDePasse;
     }
 
     public Specialite getSpecialite() {
@@ -65,9 +62,6 @@ class Medecin {
     /**
      * @param motDePasse the motDePasse to set
      */
-    public void setMotDePasse(String motDePasse) {
-        this.motDePasse = motDePasse;
-    }
 
     public String getNom() {
         return nom;
