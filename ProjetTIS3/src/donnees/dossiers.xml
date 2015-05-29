@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dossiers>
+
+  <ficheDeSoins>
+    <date>2006-01-06 08:15</date>
+    <medecin>
+        <nom>Bono</nom>
+        <prenom>Jean</prenom>
+        <specialite>ORL</specialite>
+        <telephone>0632549854</telephone>
+    </medecin>
+    <patient>
+        <nom>Track</nom>
+        <prenom>Pat</prenom>
+        <naissance>1946-01-11</naissance>
+        <telephone>0636532447</telephone>
+        <adresse>162 rue du boulet 75 001 Paris</adresse>
+        <numSecu>0326598752364129</numSecu>
+    </patient>
+    <acte>
+        <code>CS</code>
+        <coef>1</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>ORT</code>
+        <coef>50</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>PRO</code>
+        <coef>150</coef>
+        <observations>R.A.S</observations>
+    </acte>
+  </ficheDeSoins>
+  
+  <ficheDeSoins>
+    <date>2005-10-23 12:24</date>
+    <medecin>
+        <nom>Deblouze</nom>
+        <prenom>Agathe</prenom>
+        <specialite>Cardiologue</specialite>
+        <telephone>0632542569</telephone>
+    </medecin>
+    <patient>
+        <nom>Bole</nom>
+        <prenom>Pat</prenom>
+        <naissance>1998-06-17</naissance>
+        <telephone>0648665315</telephone>
+        <adresse>163 rue du boulet 75 001 Paris</adresse>
+        <numSecu>04659832016574</numSecu>
+    </patient>
+    <acte>
+        <code>CSC</code>
+        <coef>1</coef>
+    </acte>
+    <acte>
+        <code>KC</code>
+        <coef>120</coef>
+    </acte>
+  </ficheDeSoins>
+
+  <ficheDeSoins>
+    <date>2006-01-03 19:57</date>
+    <medecin>
+        <nom>Deblouze</nom>
+        <prenom>Agathe</prenom>
+        <specialite>Cardiologue</specialite>
+        <telephone>0632542569</telephone>
+    </medecin>
+    <patient>
+        <nom>Bole</nom>
+        <prenom>Maggy</prenom>
+        <naissance>1965-09-26</naissance>
+        <telephone>0696361532</telephone>
+        <adresse>164 rue du boulet 75 001 Paris</adresse>
+        <numSecu>0542313369852</numSecu>
+    </patient>
+    <acte>
+        <code>CSC</code>
+        <coef>2</coef>
+        <observations>R.A.S</observations>
+    </acte>
+  </ficheDeSoins>
+  
+  <ficheDeSoins>
+    <date>2005-11-13 04:32</date>
+    <medecin>
+        <nom>Heget</nom>
+        <prenom>Yves</prenom>
+        <specialite>Gynecologie</specialite>
+        <telephone>0687639521</telephone>
+    </medecin>
+    <patient>
+        <nom>Bole</nom>
+        <prenom>Maggy</prenom>
+        <naissance>1965-09-26</naissance>
+        <telephone>0696361532</telephone>
+        <adresse>164 rue du boulet 75 001 Paris</adresse>
+        <numSecu>0542313369852</numSecu>
+    </patient>
+    <acte>
+        <code>KE</code>
+        <coef>1</coef>
+        <observations>R.A.S</observations>
+    </acte>
+  </ficheDeSoins>
+
+  <ficheDeSoins>
+    <date>2005-08-31 15:51</date>
+    <medecin>
+        <nom>Covert</nom>
+        <prenom>Harry</prenom>
+        <specialite>ORL</specialite>
+        <telephone>0624369825</telephone>
+    </medecin>
+    <patient>
+        <nom>Epi</nom>
+        <prenom>Fanie</prenom>
+        <naissance>2001-09-30</naissance>
+        <telephone>0635126468</telephone>
+        <adresse>165 rue du boulet 75 001 Paris</adresse>
+        <numSecu>06489532016914</numSecu>
+    </patient>
+    <acte>
+        <code>CS</code>
+        <coef>1</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>KFA</code>
+        <coef>72</coef>
+        <observations>R.A.S</observations>
+    </acte>
+  </ficheDeSoins>
+    
+  <ficheDeSoins>
+    <date>2005-08-31 23:10</date>
+    <medecin>
+        <nom>Foupasune</nom>
+        <prenom>Jean</prenom>
+        <specialite>ORL</specialite>
+        <telephone>0691551635</telephone>
+    </medecin>
+    <patient>
+        <nom>Henfayitte</nom>
+        <prenom>Melusine</prenom>
+        <naissance>1978-04-21</naissance>
+        <telephone>0615326497</telephone>
+        <adresse>166 rue du boulet 75 001 Paris</adresse>
+        <numSecu>0321987463256</numSecu>
+    </patient>
+    <acte>
+        <code>CS</code>
+        <coef>1</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>KFA</code>
+        <coef>72</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>K</code>
+        <coef>1000</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>KE</code>
+        <coef>60</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>ORT</code>
+        <coef>85</coef>
+        <observations>R.A.S</observations>
+    </acte>
+    <acte>
+        <code>PRO</code>
+        <coef>850</coef>
+        <observations>R.A.S</observations>
+    </acte>
+  </ficheDeSoins>
+  
+</dossiers>
