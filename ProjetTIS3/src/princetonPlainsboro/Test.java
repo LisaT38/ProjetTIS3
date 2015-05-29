@@ -4,7 +4,7 @@ class Test {
 
     public static void main(String[] args) {
         //Lis le doc XML et en extrait le dm associ�
-        LectureXML test = new LectureXML("dossiers.xml");
+        LectureXML test = new LectureXML("dossier.xml");
         DossierMedical dm = test.getDossier();
         dm.afficher();
 

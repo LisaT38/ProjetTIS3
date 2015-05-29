@@ -1,17 +1,21 @@
 package princetonPlainsboro;
 
-class Medecin{
+class Medecin {
 
     private String nom;
     private String prenom;
     private Specialite specialite;
     private String telephone;
+    private String identifiant;
+    private String motDePasse;
 
     public Medecin(String nom, String prenom, Specialite specialite, String telephone) {
         this.nom = nom;
         this.prenom = prenom;
         this.specialite = specialite;
         this.telephone = telephone;
+        identifiant = nom.toLowerCase() + prenom.substring(0, 1).toLowerCase() + "_med";
+        motDePasse = prenom.toLowerCase();
     }
 
     public Specialite getSpecialite() {
@@ -62,7 +66,6 @@ class Medecin{
     /**
      * @param motDePasse the motDePasse to set
      */
-
     public String getNom() {
         return nom;
     }
