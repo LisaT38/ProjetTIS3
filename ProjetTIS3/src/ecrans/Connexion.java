@@ -123,7 +123,7 @@ public class Connexion extends javax.swing.JFrame {
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         String identifiant = jTextField1.getText();
-        String motDePasse = jPasswordField1.getPassword().toString();
+        String motDePasse = new String(jPasswordField1.getPassword());
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
