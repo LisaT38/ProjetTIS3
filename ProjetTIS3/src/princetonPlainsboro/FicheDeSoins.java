@@ -62,4 +62,8 @@ class FicheDeSoins {
         }
         return total;
     }
+
+    public Vector<Acte> getActes() {
+        return actes;
+    }
 }

@@ -4,22 +4,22 @@ class Patient {
 
     private String nom;
     private String prenom;
-    private String numeroTel;
+    private String telephone;
     private Date dateNaissance;
     private String numeroSecu;
     private String adresse;
 
-    public Patient(String nom, String prenom, String numeroTel, Date dateNaissance, String numeroSecu, String adresse) {
+    public Patient(String nom, String prenom, String telephone, Date dateNaissance, String numeroSecu, String adresse) {
         this.nom = nom;
         this.prenom = prenom;
-        this.numeroTel = numeroTel;
+        this.telephone = telephone;
         this.dateNaissance = dateNaissance;
         this.numeroSecu = numeroSecu;
         this.adresse = adresse;
     }
 
     public String toString() {
-        return prenom + " " + nom + " ne(e) le " + dateNaissance + "\n\t tel : " + numeroTel + "\n\t adresse : " + adresse + "\n\t numero secu : " + numeroSecu;
+        return prenom + " " + nom + " ne(e) le " + dateNaissance + "\n\t tel : " + telephone + "\n\t adresse : " + adresse + "\n\t numero secu : " + numeroSecu;
     }
 
     public boolean equals(Object o) {
@@ -43,10 +43,10 @@ class Patient {
     }
 
     /**
-     * @param numeroTel the numeroTel to set
+     * @param telephone the telephone to set
      */
-    public void setNumeroTel(String numeroTel) {
-        this.numeroTel = numeroTel;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
     /**
@@ -80,6 +80,18 @@ class Patient {
 
     public String getNumeroSecu() {
         return numeroSecu;
+    }
+
+    public Date getDateNaissance() {
+        return dateNaissance;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public String getAdresse() {
+        return adresse;
     }
 
 }

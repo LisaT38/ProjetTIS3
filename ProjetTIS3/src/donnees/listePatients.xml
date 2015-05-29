@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listePatients>
+    <patient>
+        <nom>Track</nom>
+        <prenom>Pat</prenom>
+        <naissance>1946-01-11</naissance>
+        <telephone>0636532447</telephone>
+        <adresse>162 rue du boulet 75 001 Paris</adresse>
+        <numSecu>0326598752364129</numSecu>
+    </patient>  
+</listePatients>

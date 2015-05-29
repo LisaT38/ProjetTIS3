@@ -76,4 +76,8 @@ class Medecin {
     public String getPrenom() {
         return prenom;
     }
+
+    public String getTelephone() {
+        return telephone;
+    }
 }

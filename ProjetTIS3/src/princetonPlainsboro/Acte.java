@@ -24,4 +24,16 @@ class Acte {
     public double cout() {
         return code.calculerCout(coef);
         }
+
+    public Code getCode() {
+        return code;
+    }
+
+    public int getCoef() {
+        return coef;
+    }
+
+    public String getObservations() {
+        return observations;
+    }
     }

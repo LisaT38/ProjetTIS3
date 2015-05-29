@@ -64,7 +64,7 @@ public class LectureXML {
                 // traitement selon l'evenement
                 switch (event) {
                     case XMLStreamConstants.START_ELEMENT:
-                        if (parser.getLocalName().equals("dossiers")) {
+                        if (parser.getLocalName().equals("dossier")) {
                             dossierCourant = new DossierMedical();
                         }
                         break;
@@ -115,7 +115,7 @@ public class LectureXML {
                             }
                             // effacer tous les actes de la liste
                             actes.clear();
-                            // ajouter la fiche de soin au dossiers
+                            // ajouter la fiche de soin au dossier
                             dossierCourant.ajouterFiche(f);
                         }
                         if (parser.getLocalName().equals("medecin")) {

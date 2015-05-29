@@ -17,9 +17,9 @@ class Date implements Comparable {
     }
 
     public String toString() {
-        String s = jour + "/" + mois + "/" + annee;
+        String s = jour + "-" + mois + "-" + annee;
         if(heure!=null && minute!=null){
-            s+=", "+heure+"h"+minute;
+            s+=" "+heure+":"+minute;
         }
         return s;
     }
